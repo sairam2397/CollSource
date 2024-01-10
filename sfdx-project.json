@@ -1,12 +1,17 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "name": "CollSource",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "58.0"
+  "packageDirectories" : [ {
+    "path" : "force-app",
+    "default" : true,
+    "package" : "sourcePackage1",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "58.0",
+  "packageAliases" : {
+    "sourcePackage1" : "0Ho5g000000Cb1kCAC",
+    "sourcePackage1@1.0.0.0" : "04t5g000000dnwMAAQ"
+  },
+  "name" : "CollSource"
 }
